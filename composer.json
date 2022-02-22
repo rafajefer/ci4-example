@@ -55,7 +55,6 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "php spark serve",
             "chmod -R 777 public/"
         ],
         "post-update-cmd": [
